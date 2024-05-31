@@ -147,7 +147,7 @@ html, body, .main-container {
 }
 .about-text {
     overflow-y: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 #about-resume-link {
     text-decoration: none;
