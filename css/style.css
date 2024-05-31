@@ -147,6 +147,7 @@ html, body, .main-container {
 }
 .about-text {
     overflow-y: auto;
+    margin-bottom: 20px;
 }
 #about-resume-link {
     text-decoration: none;
@@ -197,8 +198,9 @@ html, body, .main-container {
      width: 300px;
      box-sizing: border-box;
      border-radius: 10px;
-     background-image: url("../assets/thunkyard.png");
+     /* background-image: url("../assets/thunkyard.png"); */
      background-size: cover;
+     background-position: center;
      position: relative;
 }
 .my-card .project-text {
@@ -242,6 +244,10 @@ html, body, .main-container {
     margin: 5px 10px;
     align-items: center;
     font-size: 0.7rem;
+    transition: transform 0.2s ease;
+}
+.skill-container:hover {
+    transform: scale(1.3);
 }
 .skill-container img {
     height: 5vh;
